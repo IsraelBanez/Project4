@@ -133,6 +133,7 @@ class TestList(unittest.TestCase):
         self.assertEqual(hsh.get_value_helper(lst), [2])
 
     def test_mix(self):
+        '''test for all functions on one case'''
         hsh = HashTable(1)
         hsh.insert('January', 1)
         self.assertEqual(hsh.get_num_items(), 1)
